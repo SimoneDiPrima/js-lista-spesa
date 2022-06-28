@@ -10,7 +10,7 @@ let foodItem = foodList[0];
 // shoppingList.innerHTML = `<li>${[foodItem]}</li>`
 let i = 1;
 while(i<foodList.length){
-    foodItem += `<li>${foodList[i]}</li>`
+    foodItem += `<li>${foodList[i]}</li>`;
     i++;
 }
 console.log(foodItem);
